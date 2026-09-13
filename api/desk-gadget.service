@@ -1,0 +1,16 @@
+[Unit]
+Description=Desk Gadget Telemetry Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=gaurav
+WorkingDirectory=/home/gaurav/Music/antigravity/desk-gadget
+ExecStart=/home/gaurav/Music/antigravity/desk-gadget/.venv/bin/python3 app.py
+Restart=on-failure
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
