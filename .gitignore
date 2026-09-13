@@ -1,0 +1,86 @@
+# =============================================================================
+# DeskLink Master .gitignore
+# =============================================================================
+
+# --- Operating System & Desktop Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
+*.swo
+.directory
+
+# --- IDE & Editor Configuration ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.env.*
+!.env.example
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+.mypy_cache/
+.ruff_cache/
+
+# --- Node.js & Frontend Tooling ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build artifacts & caches
+desk-gadget-ui/dist/
+desk-gadget-ui/.vite/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# --- Temporary / Runtime / Scratch Files ---
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.tmp
+tmp/
+scratch/
