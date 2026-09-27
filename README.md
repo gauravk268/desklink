@@ -366,4 +366,4 @@ If deploying DeskLink on Ubuntu (Desktop or Server) or Debian:
 ---
 
 ## 📄 License
-MIT License. Built for Linux desktop enthusiasts.
+This project is open-source and licensed under the [MIT License](LICENSE). Built for Linux desktop enthusiasts.
